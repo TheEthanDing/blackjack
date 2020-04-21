@@ -21,6 +21,7 @@ print('Welcome to Blackjack')
 print('These are your cards')
 yourCard1 = newCard()
 yourCard2 = newCard()
+printOneCard(yourCard1)
 newCards = []
 printTwoCards(yourCard1, yourCard2)
 yourValue = toInt(yourCard1) + toInt(yourCard2)
